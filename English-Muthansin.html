@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>English - Muthansin translator</title>
+    <style>
+      head,body{
+        height:100%;
+        width:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+      }
+      div{
+        height:50%;
+        width:50%;
+      }
+      input{
+        height:20%;
+        width:100%;
+        border:none;
+        background-color:#aaaaaa;
+      }
+      #result{
+        width:100%;
+        overflow-x:scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Please, write grammatically correct text in the input bar.</p>
+      <input placeholder="Enter text to translate...">
+      <select>
+        <option value="EM">English to Muthansin</option>
+        <option value="ME">Muthansin to English</option>
+      </select>
+      <p id="result"></p>
+    </div>
+    <script>
+      const muthansinDictionary = ['']
+    </script>
+  </body>
+</html>
